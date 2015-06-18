@@ -6,68 +6,56 @@
 	# weslley@wcre8tive.com
 	#
 	# PHP Script and SQL source.
-	# Copyright © 2014. Wcre8tive // Weslley A. Harakawa. All rights reserved.
+	# Copyright Â© 2014. Wcre8tive // Weslley A. Harakawa. All rights reserved.
 	=================================================================
 */ 
-/*******************************************************
-* config.php -											
-* 	Arquivo de configuração para o WESPA Calendário v0.2		
-* 	Autor: WESPA Digital <info@wespa.com.br>			
-*														
-* 	Configuration directives set with php's define()	
-* 	function.  Usage: define("CONSTANT-ID", 			
-*	"scalar_value")										
-* 														
-* Para perguntas ou comentários, visite:						
-* 	http://www.wespa.com.br
-*******************************************************/
 
 /*******************************************************
-***** Configurações do Banco de Dados MySQL ***********
+***** ConfiguraÃ§Ãµes do Banco de Dados MySQL ***********
 *******************************************************/
 
 define("DB_NAME", "");				// nome do banco de dados
-define("DB_USER", "");				// nome de usuário no banco de dados
+define("DB_USER", "");				// nome de usuÃ¡rio no banco de dados
 define("DB_PASS", "");				// senha do banco de dados
 define("DB_HOST", "localhost");			// servidor de banco de dados
 
-// Prefixo adicionado aos nomes de tabelas. Não autere após
-// a instalação inicial.
+// Prefixo adicionado aos nomes de tabelas. NÃ£o autere apÃ³s
+// a instalaÃ§Ã£o inicial.
 define("DB_TABLE_PREFIX", "calendario_");
 
 /*******************************************************
-************** Opções Idiomáticas *********************
+************** OpÃ§Ãµes IdiomÃ¡ticas *********************
 *******************************************************/
 
 define("LANGUAGE_CODE", "pt");
 
 /*******************************************************
-********* Opções Visuais do WESPA Calendário ************
+********* OpÃ§Ãµes Visuais do WESPA CalendÃ¡rio ************
 *******************************************************/
 
-// Define o número máximo de eventos a serem visualizados 
-// no dia, na tabela do mês.
+// Define o nÃºmero mÃ¡ximo de eventos a serem visualizados 
+// no dia, na tabela do mÃªs.
 define("MAX_TITLES_DISPLAYED", 10);
 
-// Limite de caracteres para o título. Ajuste este evento
-// quando os títulos forem muito grandes e precise de
-// mais espaço para exibilos no calendário.
+// Limite de caracteres para o tÃ­tulo. Ajuste este evento
+// quando os tÃ­tulos forem muito grandes e precise de
+// mais espaÃ§o para exibilos no calendÃ¡rio.
 define("TITLE_CHAR_LIMIT", 100);
 
 // Nome do modelo.  e.g. "default" se o arquivo 
-// que contém o modelo visual for "default.php".
+// que contÃ©m o modelo visual for "default.php".
 define("TEMPLATE_NAME", "default");
 
-// Especifica o dia em que começa a semana no
-// WESPA Calendário.  O valor deve ser numérico
-// e é um intervalo 0-6.  Zero indica que a semana
-// começa no Domingo, 1 indica que é na Segunda-feira,
-// 2 Terça-feira, 3 Quarta-feira... Para a maioria dos
-// usuários se utiliza zero.
+// Especifica o dia em que comeÃ§a a semana no
+// WESPA CalendÃ¡rio.  O valor deve ser numÃ©rico
+// e Ã© um intervalo 0-6.  Zero indica que a semana
+// comeÃ§a no Domingo, 1 indica que Ã© na Segunda-feira,
+// 2 TerÃ§a-feira, 3 Quarta-feira... Para a maioria dos
+// usuÃ¡rios se utiliza zero.
 define("WEEK_START", 1);
 
-// Especifica o formato de exibição da hora.
-// Está disponível dois formatos: "12hr" exibe
+// Especifica o formato de exibiÃ§Ã£o da hora.
+// EstÃ¡ disponÃ­vel dois formatos: "12hr" exibe
 // horas 1-12 com um am/pm, e "24hr" exibe
 // horas 00-23 sem am/pm.
 define("TIME_DISPLAY_FORMAT", "24hr");
