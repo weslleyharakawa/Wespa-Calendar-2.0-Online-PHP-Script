@@ -5,10 +5,6 @@ A calendar schedule online script developed with PHP, CSS and SQL. Brazilian Por
 WESPA Calendário v2.0 developed by Weslley A. Harakawa
 ==================================================
 
-DEMO / LIVE CALENDAR
-http://code.wcre8tive.com/wespacalendar
-
-
 ABOUT THIS PROJECT
 ----------------------------------
 Wespa Calendar script (Brazilian Portuguese version)  is a piece of PHP code to create an event calendar for your website.
@@ -45,5 +41,3 @@ PHP, Javascript, SQL, CSS
 For more information contact the author:
 Weslley A. Harakawa
 weslley@wcre8tive.com
-
- 
